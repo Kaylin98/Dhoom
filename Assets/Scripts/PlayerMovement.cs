@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float yClampRange = 20f;
 
     [SerializeField] float controlRollFactor = 15f;
+    [SerializeField] float rotationSpeed = 5f;
+    
     Vector2 moveInput;
 
 
@@ -26,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     void processRotation()
     {
         Quaternion targetRotation =Quaternion.Euler(0f, 0f, moveInput.x * -controlRollFactor);
-        transform.localRotation = targetRotation;
+        transform.localRotation = Quaternion.Lerp(transform.localRotation, targetRotation, Time.deltaTime * rotationSpeed);
     }
 
     void ProcessTranslation()
