@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,6 +6,8 @@ public class PlayerWeapon : MonoBehaviour
 {
     [SerializeField] GameObject[] lasers;
     [SerializeField] RectTransform crosshair;
+    [SerializeField] Transform targetPoint;
+    [SerializeField] float targetDistance = 100f;
 
     bool isFiring = false;
 
@@ -12,13 +15,20 @@ public class PlayerWeapon : MonoBehaviour
     {
         Cursor.visible = false;
     }
-    
+
     void Update()
     {
         ProcessFiring();
         MoveCrosshair();
+        MoveTarget();
     }
-    
+
+    private void MoveTarget()
+    {
+        Vector3 targetPointPosition = new Vector3(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue(), targetDistance);
+        targetPoint.position = Camera.main.ScreenToWorldPoint(targetPointPosition);
+    }
+
     public void OnFire(InputValue value)
     {
         isFiring = value.isPressed;
