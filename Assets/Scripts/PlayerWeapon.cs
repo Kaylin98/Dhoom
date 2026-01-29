@@ -21,12 +21,7 @@ public class PlayerWeapon : MonoBehaviour
         ProcessFiring();
         MoveCrosshair();
         MoveTarget();
-    }
-
-    private void MoveTarget()
-    {
-        Vector3 targetPointPosition = new Vector3(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue(), targetDistance);
-        targetPoint.position = Camera.main.ScreenToWorldPoint(targetPointPosition);
+        AimLasers();
     }
 
     public void OnFire(InputValue value)
@@ -47,4 +42,21 @@ public class PlayerWeapon : MonoBehaviour
     {
         crosshair.position = Mouse.current.position.ReadValue();
     }
+
+    void MoveTarget()
+    {
+        Vector3 targetPointPosition = new Vector3(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue(), targetDistance);
+        targetPoint.position = Camera.main.ScreenToWorldPoint(targetPointPosition);
+    }
+
+    void AimLasers()
+    {
+        foreach (var laser in lasers)
+        {
+            Vector3 fireDirection = targetPoint.position - this.transform.position;
+            Quaternion rotation = Quaternion.LookRotation(fireDirection, Vector3.up);
+            laser.transform.rotation = rotation;
+        }
+    }
+
 }

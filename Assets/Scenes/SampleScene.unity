@@ -665,7 +665,7 @@ MonoBehaviour:
   - {fileID: 2115616944}
   - {fileID: 865517019}
   crosshair: {fileID: 873396639}
-  targetPoint: {fileID: 0}
+  targetPoint: {fileID: 279428711}
   targetDistance: 250
 --- !u!1001 &708132845
 PrefabInstance:
