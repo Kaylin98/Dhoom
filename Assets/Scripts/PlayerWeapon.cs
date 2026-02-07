@@ -54,7 +54,7 @@ public class PlayerWeapon : MonoBehaviour
         foreach (var laser in lasers)
         {
             Vector3 fireDirection = targetPoint.position - this.transform.position;
-            Quaternion rotation = Quaternion.LookRotation(fireDirection, Vector3.up);
+            Quaternion rotation = Quaternion.LookRotation(fireDirection);
             laser.transform.rotation = rotation;
         }
     }
