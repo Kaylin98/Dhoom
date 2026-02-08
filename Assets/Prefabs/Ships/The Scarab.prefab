@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 790723216608503809, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_Name
-      value: Enemy 4
+      value: The Scarab
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalScale.x
@@ -71,6 +71,14 @@ PrefabInstance:
     - target: {fileID: 4713661206228696488, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_Center.z
       value: -1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: hitPoints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: scoreValue
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

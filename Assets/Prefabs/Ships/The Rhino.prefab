@@ -150,6 +150,14 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.12
       objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: hitPoints
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1522957417646850882, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
