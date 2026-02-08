@@ -979,6 +979,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: xClampRange
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: yClampRange
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: controlSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: rotationSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: controlRollFactor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011856405385803484, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: controlPitchFactor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2102687322783306710, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2102687322783306710, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3836340016077392782, guid: 5c86013a121b6034f8b801a215ef1eb1, type: 3}
       propertyPath: m_Name
       value: Player Rig
