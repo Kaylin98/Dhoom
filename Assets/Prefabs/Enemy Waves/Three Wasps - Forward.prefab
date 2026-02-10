@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8625113042579279775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359227262890963649}
+  - component: {fileID: 3847702399605212150}
+  m_Layer: 0
+  m_Name: Three Wasps - Forward
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359227262890963649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625113042579279775}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8463329, z: -0, w: -0.5326543}
+  m_LocalPosition: {x: 17.8, y: 17.9, z: 312.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 914341897222792479}
+  - {fileID: 789819954762657093}
+  - {fileID: 2177643706763642904}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 244.37, z: 0}
+--- !u!320 &3847702399605212150
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625113042579279775}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d4d51c93590012240b24f9f1c61ffdc3, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4056524873179076562, guid: d4d51c93590012240b24f9f1c61ffdc3, type: 2}
+    value: {fileID: 821087873624188146}
+  - key: {fileID: 4168235298437478688, guid: d4d51c93590012240b24f9f1c61ffdc3, type: 2}
+    value: {fileID: 946726919898672296}
+  - key: {fileID: 6567715678939813681, guid: d4d51c93590012240b24f9f1c61ffdc3, type: 2}
+    value: {fileID: 1868423643537312245}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &4682261103927979913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 359227262890963649}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -82.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 121.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_Name
+      value: The Wasp (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+--- !u!95 &1868423643537312245 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 4682261103927979913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2177643706763642904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 4682261103927979913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5940905274779550350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 359227262890963649}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -110.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.501541
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 106.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_Name
+      value: The Wasp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+--- !u!95 &821087873624188146 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 5940905274779550350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &914341897222792479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 5940905274779550350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6067529380289497812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 359227262890963649}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.196533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 110.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+      propertyPath: m_Name
+      value: The Wasp (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+--- !u!4 &789819954762657093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 6067529380289497812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &946726919898672296 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 5c7b328b06bab9a429298e0128006ef8, type: 3}
+  m_PrefabInstance: {fileID: 6067529380289497812}
+  m_PrefabAsset: {fileID: 0}
