@@ -13,7 +13,6 @@ public class DialogueLines : MonoBehaviour
     {
         currentLine++;
         dialogueText.text = lines[currentLine];
-        
     }
     else
     {
