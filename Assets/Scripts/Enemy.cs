@@ -21,12 +21,14 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
-
         hitPoints--;
         if (hitPoints <= 0)
         {
             scoreboard.IncreaseScore(scoreValue);
-            Instantiate(explosionVFX, transform.position, Quaternion.identity);
+            
+            GameObject vfx = Instantiate(explosionVFX, transform.position, transform.rotation);
+            
+            Destroy(vfx, 2f); 
             Destroy(gameObject);
         }
         

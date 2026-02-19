@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: scoreValue
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: explosionVFX
+      value: 
+      objectReference: {fileID: 9111320563476075686, guid: c6fb71e58ec36784687d958bc39de3f2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1522957417646850882, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
