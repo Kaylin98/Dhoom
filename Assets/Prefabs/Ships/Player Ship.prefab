@@ -334,6 +334,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 87241ee8fb7f86241a0e48f9e5d39627, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2312304150825862299, guid: 87241ee8fb7f86241a0e48f9e5d39627, type: 3}
+    - target: {fileID: -7511558181221131132, guid: 87241ee8fb7f86241a0e48f9e5d39627, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2146084303107583142, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
     - target: {fileID: 919132149155446097, guid: 87241ee8fb7f86241a0e48f9e5d39627, type: 3}
       propertyPath: m_Name
       value: Fighter Ship
