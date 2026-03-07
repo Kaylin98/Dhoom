@@ -244,6 +244,7 @@ PlayableDirector:
     m_References:
     - 316605160352d5344a4ab728cfc86db4: {fileID: 405810132}
     - 271aa2f559ecc5943b8f490fca7e4d2c: {fileID: 351840133}
+    - 9486e576ebe88834fbed5e2a4bed1a78: {fileID: 565500065}
     - fda0212e387cb2e468fad425c4eafc6a: {fileID: 351840133}
     - 12ebd70d647bdfb439f6cefe65670f07: {fileID: 1719752830}
     - bf2c5c7d6f686aa41b7a8017ea2db9f1: {fileID: 405810132}
@@ -436,12 +437,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239990068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.69289, y: 320.18503, z: 1160.9451}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -415.89832, y: 169.27701, z: 349.08832}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1433415765}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &291272792 stripped
 Animator:
@@ -2556,6 +2557,7 @@ Transform:
   - {fileID: 1825069467}
   - {fileID: 1195923100}
   - {fileID: 1036912878}
+  - {fileID: 239990070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1438579182
@@ -3444,6 +3446,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[5].value
       value: 
       objectReference: {fileID: 1479856479}
+    - target: {fileID: 7675103240762875861, guid: 53726882f914a0c4d93b25d518b78364, type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 40440d9995d01844ab10fb431413f9bf, type: 3}
     - target: {fileID: 8625113042579279775, guid: 53726882f914a0c4d93b25d518b78364, type: 3}
       propertyPath: m_Name
       value: Three Wasps - Forward
@@ -3575,4 +3581,3 @@ SceneRoots:
   - {fileID: 1522752553}
   - {fileID: 1433415765}
   - {fileID: 519420363}
-  - {fileID: 239990070}
