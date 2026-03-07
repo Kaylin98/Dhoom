@@ -18,31 +18,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82.1
+      value: 257.20758
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 191.48827
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1417.4269
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.9823103
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.032951366
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.18429254
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.0041249595
       objectReference: {fileID: 0}
     - target: {fileID: 4484175345622283208, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65,6 +65,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4713661206228696488, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713661206228696488, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: m_Center.y
       value: 1.91
       objectReference: {fileID: 0}
@@ -72,6 +76,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -1.13
       objectReference: {fileID: 0}
+    - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 40440d9995d01844ab10fb431413f9bf, type: 3}
     - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: hitPoints
       value: 4
