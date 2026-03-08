@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &433532004523336239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4984677814331389268}
+  - component: {fileID: 5613133629619157442}
+  m_Layer: 0
+  m_Name: Three Matises
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4984677814331389268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433532004523336239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.049165547, y: 0.010024737, z: 0.00050664594, w: -0.9987402}
+  m_LocalPosition: {x: -468.2, y: -321.39282, z: -1016.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8645198181312085964}
+  - {fileID: 6546586182519463193}
+  - {fileID: 4974345264558145007}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &5613133629619157442
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433532004523336239}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 01c823880f651b94c817c3be776fb602, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1104881154902141557, guid: 01c823880f651b94c817c3be776fb602, type: 2}
+    value: {fileID: 8083006952856960545}
+  - key: {fileID: 2057497748409780923, guid: 01c823880f651b94c817c3be776fb602, type: 2}
+    value: {fileID: 6705674564350057716}
+  - key: {fileID: -5692528245709833587, guid: 01c823880f651b94c817c3be776fb602, type: 2}
+    value: {fileID: 4818040882653232130}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &295009629519215240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4984677814331389268}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 497.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 236.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 983.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_Name
+      value: The Mantis (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+--- !u!4 &6546586182519463193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 295009629519215240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6705674564350057716 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 295009629519215240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2002514597950528126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4984677814331389268}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 455.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 232.71887
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 988.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_Name
+      value: The Mantis (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+--- !u!95 &4818040882653232130 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 2002514597950528126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4974345264558145007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 2002514597950528126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2971207189592004701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4984677814331389268}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 479
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 239.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1019.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+      propertyPath: m_Name
+      value: The Mantis
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+--- !u!95 &8083006952856960545 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 2971207189592004701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8645198181312085964 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: ecf513b1262bdef41b81841be57efe92, type: 3}
+  m_PrefabInstance: {fileID: 2971207189592004701}
+  m_PrefabAsset: {fileID: 0}

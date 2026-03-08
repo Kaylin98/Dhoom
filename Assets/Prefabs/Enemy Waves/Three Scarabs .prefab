@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6555478519349968432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675445601415286552}
+  - component: {fileID: 6904067280351933992}
+  m_Layer: 0
+  m_Name: 'Three Scarabs '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675445601415286552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555478519349968432}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5518781, z: -0, w: 0.8339249}
+  m_LocalPosition: {x: -1252.3351, y: -167.04065, z: -123.59656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8689611678468640259}
+  - {fileID: 1448594335301747933}
+  - {fileID: 6884319647102734766}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 66.992, z: 0}
+--- !u!320 &6904067280351933992
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555478519349968432}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 1ce3587c74084384bace81767c5c855a, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2577555885617561725, guid: 1ce3587c74084384bace81767c5c855a, type: 2}
+    value: {fileID: 9170104848984379374}
+  - key: {fileID: 8701202028843632089, guid: 1ce3587c74084384bace81767c5c855a, type: 2}
+    value: {fileID: 1427362703918581040}
+  - key: {fileID: 466350018865902885, guid: 1ce3587c74084384bace81767c5c855a, type: 2}
+    value: {fileID: 6367938350450839619}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &92382057846502975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1675445601415286552}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 270.5215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 182.56644
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1420.3577
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9935514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.033104606
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1083812
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0036552963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_Name
+      value: The Scarab (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+--- !u!95 &6367938350450839619 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 92382057846502975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6884319647102734766 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 92382057846502975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2762258030861478290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1675445601415286552}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 257.20758
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 191.48827
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1417.4269
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9823103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.032951366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.18429254
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0041249595
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_Name
+      value: The Scarab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+--- !u!4 &8689611678468640259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 2762258030861478290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9170104848984379374 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 2762258030861478290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5393131042965005132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1675445601415286552}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 244.54764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 182.03905
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1412.855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9935514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.033104606
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1083812
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0036552963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_Name
+      value: The Scarab (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+--- !u!95 &1427362703918581040 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6419673242608002684, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 5393131042965005132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1448594335301747933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 5393131042965005132}
+  m_PrefabAsset: {fileID: 0}

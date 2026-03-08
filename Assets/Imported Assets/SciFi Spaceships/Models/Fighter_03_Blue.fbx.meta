@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 48c3c1900652398428b4283a60cac332
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colour_Palette
+    second: {fileID: 2100000, guid: 49e7283d0a43d6c4389e5777ba703c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emission
+    second: {fileID: 2100000, guid: c839c28ce80a5844091e67b46f137cba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,6 +66,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
