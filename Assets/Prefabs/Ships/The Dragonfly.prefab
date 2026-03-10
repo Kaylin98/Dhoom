@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: scoreValue
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6343857805615106306, guid: b597ba3af9d107844afc126199ce3c9a, type: 3}
       propertyPath: explosionVFX

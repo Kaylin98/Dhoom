@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject explosionVFX;
     [SerializeField] AudioClip hitSound;
     [SerializeField] int hitPoints = 3;
-    [SerializeField] int scoreValue = 10;
+    [SerializeField] int scoreValue = 0;
     
     Scoreboard scoreboard;
     AudioSource audioSource; 

@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &485693609225234428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549396914470206688}
+  - component: {fileID: 3854020660112738762}
+  - component: {fileID: 7069109021694646188}
+  m_Layer: 0
+  m_Name: Dragonfly Mix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549396914470206688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485693609225234428}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.21125984, z: 0, w: 0.97743}
+  m_LocalPosition: {x: -123.50485, y: 60.699997, z: 0.25925446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1611315231155066264}
+  - {fileID: 8302932691663016836}
+  - {fileID: 4863235950297394946}
+  - {fileID: 5865544701151554811}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 359, z: 0}
+--- !u!320 &3854020660112738762
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485693609225234428}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 46e5c0373581dc9459d17947fa9563ea, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 5668455647534067956, guid: 46e5c0373581dc9459d17947fa9563ea, type: 2}
+    value: {fileID: 7069109021694646188}
+  m_ExposedReferences:
+    m_References: []
+--- !u!95 &7069109021694646188
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485693609225234428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1127211724442848106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1549396914470206688}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 473.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 102.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 295.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99942666
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.033132885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.006600833
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0022406897
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+      propertyPath: m_Name
+      value: The Scarab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+--- !u!4 &5865544701151554811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: 09b2aa2571f0b954baf81029bb235f35, type: 3}
+  m_PrefabInstance: {fileID: 1127211724442848106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2143607422770530451
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1549396914470206688}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 453.4977
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 97.1465
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 296.8041
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_Name
+      value: The Dragonfly (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+--- !u!4 &4863235950297394946 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+  m_PrefabInstance: {fileID: 2143607422770530451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3313454747713745941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1549396914470206688}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 495.6448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 100.718475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 302.6435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_Name
+      value: The Dragonfly (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+--- !u!4 &8302932691663016836 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+  m_PrefabInstance: {fileID: 3313454747713745941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5232824777561797129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1549396914470206688}
+    m_Modifications:
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 472.64496
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 95.80316
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 313.4092
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638663416642124888, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+      propertyPath: m_Name
+      value: The Dragonfly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+--- !u!4 &1611315231155066264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6828073601007249297, guid: edf2be4b0c8eb214b8370f5aca501758, type: 3}
+  m_PrefabInstance: {fileID: 5232824777561797129}
+  m_PrefabAsset: {fileID: 0}
