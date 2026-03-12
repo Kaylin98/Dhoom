@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 67.16666666666667
+  m_Time: 66.247625
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 58b68c1adfbe54f4e903520707585813, type: 2}
@@ -680,7 +680,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Liselle
   - m_Version: 1
-    m_Start: 93.36666666666666
+    m_Start: 94.11666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 144300871967708197}
     m_Duration: 3.714291666666668
@@ -749,7 +749,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Liselle
   - m_Version: 1
-    m_Start: 97.14999999999999
+    m_Start: 97.89999999999999
     m_ClipIn: 0
     m_Asset: {fileID: -8366427681069591461}
     m_Duration: 5.970958333333336
@@ -818,7 +818,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Kaylin
   - m_Version: 1
-    m_Start: 67.26666666666667
+    m_Start: 66.247625
     m_ClipIn: 0
     m_Asset: {fileID: 1289460966552883417}
     m_Duration: 4.916666666666668
@@ -887,7 +887,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Liselle
   - m_Version: 1
-    m_Start: 74.26666666666667
+    m_Start: 72.61666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -6218674104888516240}
     m_Duration: 4.010958333333335
@@ -4133,6 +4133,75 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: The Dragonfly Line
+  - m_Version: 1
+    m_Start: 80.01666666666632
+    m_ClipIn: 0
+    m_Asset: {fileID: -1077226552565644903}
+    m_Duration: 23.10429166666701
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -2033065002196594102}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: The Rhino
   m_Markers:
     m_Objects: []
 --- !u!114 &-1852843308452040002
@@ -4188,7 +4257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 97.14999999999999
+  m_Time: 97.89999999999999
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 58b68c1adfbe54f4e903520707585813, type: 2}
@@ -4217,7 +4286,7 @@ MonoBehaviour:
     m_Start: 71.51666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 918389692240698175}
-    m_Duration: 32.38333333333334
+    m_Duration: 32.35429166666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1475762540194082957}
     m_EaseInDuration: 0
@@ -4296,7 +4365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 93.36666666666666
+  m_Time: 94.11666666666666
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 58b68c1adfbe54f4e903520707585813, type: 2}
@@ -4334,6 +4403,30 @@ MonoBehaviour:
   m_bufferingTime: 0.1
   m_ClipProperties:
     volume: 1
+--- !u!114 &-1077226552565644903
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.ControlPlayableAsset
+  sourceGameObject:
+    exposedName: 771b2523d9f6c5e40adac8b9cddf7f81
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 7683
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+  directorOnClipEnd: 0
 --- !u!114 &-1005041455847851136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4925,7 +5018,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Mic click 1
   - m_Version: 1
-    m_Start: 66.56666666666668
+    m_Start: 65.63333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 7502476094180745617}
     m_Duration: 0.6
@@ -4976,7 +5069,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Mic click 1
   - m_Version: 1
-    m_Start: 73.66666666666667
+    m_Start: 72.01666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -1438940924748325688}
     m_Duration: 0.6
@@ -5027,7 +5120,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Mic click 1
   - m_Version: 1
-    m_Start: 92.76666666666667
+    m_Start: 93.51666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -1149499666460085381}
     m_Duration: 0.6
@@ -5144,7 +5237,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Mic click 2
   - m_Version: 1
-    m_Start: 96.93333333333334
+    m_Start: 97.38732426303854
     m_ClipIn: 0
     m_Asset: {fileID: -734350311260211704}
     m_Duration: 0.5126757369614516
@@ -5896,7 +5989,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dialogue Text
   - m_Version: 1
-    m_Start: 97.14999999999999
+    m_Start: 97.89999999999999
     m_ClipIn: 0.014291666666665037
     m_Asset: {fileID: 691453877675754011}
     m_Duration: 5.970958333333336
@@ -5965,7 +6058,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dialogue Text
   - m_Version: 1
-    m_Start: 67.25
+    m_Start: 66.23333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 6911802108750524271}
     m_Duration: 4.916666666666668
@@ -6034,7 +6127,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dialogue Text
   - m_Version: 1
-    m_Start: 74.26666666666667
+    m_Start: 72.61666666666666
     m_ClipIn: 0.014291666666665037
     m_Asset: {fileID: 6615536661305686206}
     m_Duration: 4.010958333333335
@@ -6103,7 +6196,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dialogue Text
   - m_Version: 1
-    m_Start: 93.36666666666666
+    m_Start: 94.11666666666666
     m_ClipIn: 0.014291666666665037
     m_Asset: {fileID: -346050372726240895}
     m_Duration: 3.7233333333333363
@@ -6899,7 +6992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 74.08333333333333
+  m_Time: 72.3
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 58b68c1adfbe54f4e903520707585813, type: 2}
@@ -7616,7 +7709,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_06_Kaylin_TrenchRun
   - m_Version: 1
-    m_Start: 67.25
+    m_Start: 66.23333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -2047062650557581843}
     m_Duration: 4.930958333333334
@@ -7718,7 +7811,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_07_Kaylin_ArmorBounce
   - m_Version: 1
-    m_Start: 74.26666666666667
+    m_Start: 72.61666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -3437403549002507687}
     m_Duration: 4.010958333333333
@@ -7769,7 +7862,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_08_Liselle_JoiningFight
   - m_Version: 1
-    m_Start: 93.36666666666666
+    m_Start: 94.11666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -1673426572441074337}
     m_Duration: 3.730958333333333
@@ -7838,7 +7931,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_10_Liselle_OrbitLock
   - m_Version: 1
-    m_Start: 97.14999999999999
+    m_Start: 97.89999999999999
     m_ClipIn: 0
     m_Asset: {fileID: 2436272481663303110}
     m_Duration: 5.970958333333333
