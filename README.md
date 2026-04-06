@@ -4,16 +4,11 @@
 **Dhoom** is a high-octane, cinematic rail-shooter built in Unity. Set in the treacherous Volcanic Sector, players must pilot their ship through a dark, ash-choked nebula, dodging obstacles and surviving waves of enemy fighters to secure the mothership. 
 
 ## 🎮 Play The Game
-**[👉 CLICK HERE TO LAUNCH (AND CRASH) 👈](https://play.unity.com/en/games/71f937f3-98ad-4738-a735-3c86a0bba254/thrust-issues)**
-
----
+**[👉 CLICK HERE TO LAUNCH 👈](https://play.unity.com/en/games/9a39a9dd-f90b-4059-97d1-81a2ccdcaba3/dhoom)**
 
 ## 🎥 Gameplay
 
 https://github.com/user-attachments/assets/53e3a12b-146c-4602-b867-a2d5bd700512
-
-
----
 
 ## 🌌 Visuals & Aesthetic
 The game features a heavy, contrast-driven sci-fi aesthetic:
